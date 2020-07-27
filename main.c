@@ -1,9 +1,24 @@
 #include <stdio.h>
 
+/**********************************************
+ * ESCREVA AS FUNÇÕES ADICIONAIS ANTES DO MAIN
+ *********************************************/
+
+/**
+ * @param altura
+ * @param largura
+ * @return a área de um retângulo.
+ */
+
 double areaRetangulo(double altura, double largura) {
     return altura * largura;
 }
 
+/**
+ * @param altura
+ * @param largura
+ * @return o perímetro de um retângulo.
+ */
 double perimetroRetangulo(double altura, double largura) {
     return 2 * (altura + largura);
 }
